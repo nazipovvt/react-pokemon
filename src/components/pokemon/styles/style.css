@@ -1,0 +1,22 @@
+.pokemon {
+    margin: 0;
+    z-index: 3;
+    width: 450px;
+    height: 450px;
+    position: absolute;
+}
+
+.pokemon__image {
+    opacity: 1;
+    transition: all 0.3s ease;
+}
+
+.pokemon-show {
+    -webkit-filter: none;
+    filter: none;
+}
+
+.pokemon-hide {
+    -webkit-filter: contrast(0) sepia(100%) hue-rotate(200deg) saturate(2000%) brightness(100%);
+    filter: contrast(0) sepia(100%) hue-rotate(200deg) saturate(2000%) brightness(50%);
+}

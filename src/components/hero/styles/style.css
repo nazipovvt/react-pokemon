@@ -1,0 +1,105 @@
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    padding: 100px;
+    background-color: #ffcb05;
+}
+
+.hero__logo {
+    width: 100%;
+    max-width: 1174px;
+    height: 100%;
+    max-height: 237px;
+}
+.hero__intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 0;
+    z-index: 1;
+    padding: 50px;
+}
+
+.hero__subtitle {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3rem;
+    text-align: center;
+    color: #ffcb05;
+    margin: 0;
+    text-shadow: -3px 3px 1px #3c5aa6,
+                 3px 3px 1px #3c5aa6,
+                 3px -3px 1px #3c5aa6,
+                 -3px -3px 1px #3c5aa6;
+}
+
+.hero__subtitle-postscript {
+    font-family: "Pokemon_Solid";
+    text-shadow: none;
+    color: #3c5aa6;
+    letter-spacing: .1rem;
+}
+
+.hero__input-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15%;
+    gap: 20px;
+}
+
+.hero__input-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    color: #3c5aa6;
+    margin: 0;
+}
+
+.hero__pokemon {
+    font-family: "Pokemon_Solid";
+    color: #3c5aa6;
+    letter-spacing: .1rem;
+}
+
+.hero__input {
+    background-color: #fff;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #3c5aa6;
+    margin: 0;
+}
+
+.heroButtons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.hero__button {
+    border: 4px solid #3c5aa6;
+}
+
+.hero__button:hover {
+    background: #FFFFFF;
+    color: #3c5aa6;
+    transition: 0.5s;
+}

@@ -1,0 +1,102 @@
+.facts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px;
+    width: 100%;
+    background-color: #ffcb05;
+}
+
+.facts__title {
+    font-family: "Pokemon_Solid";
+    color: #ffcb05;
+    letter-spacing: .1rem;
+    font-size: 3rem;
+    line-height: 5rem;
+    text-align: center;
+    text-transform: capitalize;
+    text-shadow: -5px 5px 1px #3c5aa6,
+                 5px 5px 1px #3c5aa6,
+                 5px -5px 1px #3c5aa6,
+                 -5px -5px 1px #3c5aa6;
+}
+
+
+.facts__card_section {
+    width: 80%;
+    height: 300px;
+    display: block;
+    transition: all 500ms linear;
+    white-space: nowrap;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.facts__card_section::-webkit-scrollbar {
+    display: none;
+}
+
+.facts__card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    width: 75%;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.facts__card_content {
+    width: 100%;
+    gap: 30px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    white-space: normal;
+    padding: 40px;
+    height: 300px;
+}
+
+.facts__card-title {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #3c5aa6;
+    text-transform: capitalize;
+}
+
+.facts__card-text {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+    text-align: center;
+    color: #3c5aa6;
+    text-transform: capitalize;
+}
+
+.facts__arrow_button {
+    cursor: pointer;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+    height: 300px;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.facts__arrow_button img {
+    width: 25px;
+    height: 25px;
+}

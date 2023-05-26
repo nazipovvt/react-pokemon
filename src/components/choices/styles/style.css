@@ -1,0 +1,25 @@
+.choices {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.choices__choice-button {
+    background: #2a75bb;
+    color: #FFFFFF;
+    min-width: 220px;
+    border: 4px solid #2a75bb;
+}
+
+.choices__choice-button:hover {
+    background: #FFFFFF;
+    color: #2a75bb;
+}
+
+.button-correct, .button-correct:hover {
+    background: #ffcb05;
+    color: #2a75bb;
+    border: 4px solid #ffcb05;
+}
