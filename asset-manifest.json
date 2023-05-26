@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/react-pokemon/static/css/main.bd42add1.css",
-    "main.js": "/react-pokemon/static/js/main.bd1f921d.js",
-    "static/js/787.80b0b2f2.chunk.js": "/react-pokemon/static/js/787.80b0b2f2.chunk.js",
+    "main.js": "/react-pokemon/static/js/main.0b836d33.js",
     "static/media/raleway-v28-latin-800.svg": "/react-pokemon/static/media/raleway-v28-latin-800.f08303a23a49ce6cff1e.svg",
     "static/media/montserrat-v25-latin-800.svg": "/react-pokemon/static/media/montserrat-v25-latin-800.941468eb10fc11b80486.svg",
     "static/media/montserrat-v25-latin-700.svg": "/react-pokemon/static/media/montserrat-v25-latin-700.2305b86407b28348a63d.svg",
@@ -45,11 +44,10 @@
     "static/media/arrowRight.svg": "/react-pokemon/static/media/arrowRight.e339f9327aaa52e84b9f679f2fcf1022.svg",
     "static/media/arrowLeft.svg": "/react-pokemon/static/media/arrowLeft.b437b3cd170ad05f856f19a60c7547c1.svg",
     "main.bd42add1.css.map": "/react-pokemon/static/css/main.bd42add1.css.map",
-    "main.bd1f921d.js.map": "/react-pokemon/static/js/main.bd1f921d.js.map",
-    "787.80b0b2f2.chunk.js.map": "/react-pokemon/static/js/787.80b0b2f2.chunk.js.map"
+    "main.0b836d33.js.map": "/react-pokemon/static/js/main.0b836d33.js.map"
   },
   "entrypoints": [
     "static/css/main.bd42add1.css",
-    "static/js/main.bd1f921d.js"
+    "static/js/main.0b836d33.js"
   ]
 }
